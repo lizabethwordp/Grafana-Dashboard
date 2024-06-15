@@ -1,0 +1,17 @@
+{
+  "name": "faker",
+  "version": "1.0.0",
+  "description": "Generating dummy data for Grafana",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Big Sam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "faker": "^5.5.3",
+    "mysql": "^2.18.1"
+  }
+}
