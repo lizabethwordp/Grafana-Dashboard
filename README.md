@@ -42,6 +42,9 @@ Steps to Setup
 - Initialize Terraform in the Directory: terraform init
 
 - Customize Variables (Optional): You can modify variables in variables.tf in the default block or create a terraform.tfvars file to override defaults.
+  
+  <img width="639" alt="Screenshot 2024-06-17 at 13 15 17" src="https://github.com/lizabethwordp/Grafana-Dashboard/assets/52053436/4dbb7de4-3230-45d0-9d7f-b23b89002a30">
+
 
 - Review the Terraform Plan: terraform plan
 
@@ -50,7 +53,7 @@ Steps to Setup
 
 Infrastructure Provisioning:
 
-- The aws.tf Terraform script provisions the following resources:
+The aws.tf Terraform script provisions the following resources:
 
 - VPC: Configured with CIDR block 10.0.0.0/16, enabling DNS support and hostnames.
 
