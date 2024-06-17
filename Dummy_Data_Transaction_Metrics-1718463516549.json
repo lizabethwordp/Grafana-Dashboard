@@ -1,7 +1,7 @@
 {
   "__inputs": [
     {
-      "name": "DS_MYSQL_DUMMY DATA DASHBOARD",
+      "name": "DS_MYSQL_DUMMY_DATA_DASHBOARD",
       "label": "MySQL Dummy Data Dashboard",
       "description": "",
       "type": "datasource",
@@ -74,7 +74,7 @@
     {
       "datasource": {
         "type": "mysql",
-        "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+        "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
       },
       "fieldConfig": {
         "defaults": {
@@ -122,7 +122,7 @@
           "dataset": "dummy_data",
           "datasource": {
             "type": "mysql",
-            "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+            "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
           },
           "editorMode": "code",
           "format": "time_series",
@@ -161,7 +161,7 @@
     {
       "datasource": {
         "type": "mysql",
-        "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+        "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
       },
       "fieldConfig": {
         "defaults": {
@@ -249,7 +249,7 @@
           "dataset": "dummy_data",
           "datasource": {
             "type": "mysql",
-            "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+            "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
           },
           "editorMode": "code",
           "format": "time_series",
@@ -288,7 +288,7 @@
     {
       "datasource": {
         "type": "mysql",
-        "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+        "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
       },
       "fieldConfig": {
         "defaults": {
@@ -348,7 +348,7 @@
           "dataset": "dummy_data",
           "datasource": {
             "type": "mysql",
-            "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+            "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
           },
           "editorMode": "code",
           "format": "time_series",
@@ -387,7 +387,7 @@
     {
       "datasource": {
         "type": "mysql",
-        "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+        "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
       },
       "fieldConfig": {
         "defaults": {
@@ -448,7 +448,7 @@
         {
           "datasource": {
             "type": "mysql",
-            "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+            "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
           },
           "editorMode": "code",
           "format": "table",
@@ -481,7 +481,7 @@
     {
       "datasource": {
         "type": "mysql",
-        "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+        "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
       },
       "fieldConfig": {
         "defaults": {
@@ -539,7 +539,7 @@
           "dataset": "dummy_data",
           "datasource": {
             "type": "mysql",
-            "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+            "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
           },
           "editorMode": "code",
           "format": "table",
@@ -578,7 +578,7 @@
     {
       "datasource": {
         "type": "mysql",
-        "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+        "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
       },
       "fieldConfig": {
         "defaults": {
@@ -638,7 +638,7 @@
           "dataset": "dummy_data",
           "datasource": {
             "type": "mysql",
-            "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+            "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
           },
           "editorMode": "code",
           "format": "time_series",
@@ -677,7 +677,7 @@
     {
       "datasource": {
         "type": "mysql",
-        "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+        "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
       },
       "fieldConfig": {
         "defaults": {
@@ -738,7 +738,7 @@
         {
           "datasource": {
             "type": "mysql",
-            "uid": "${DS_MYSQL_DUMMY DATA DASHBOARD}"
+            "uid": "${DS_MYSQL_DUMMY_DATA_DASHBOARD}"
           },
           "editorMode": "code",
           "format": "table",
@@ -783,7 +783,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "Dummy Data Transaction Metrics",
-  "uid": "a34d5ebe-4a50-4bb8-a392-a10e26947f86",
+  "uid": "",
   "version": 7,
   "weekStart": ""
 }
