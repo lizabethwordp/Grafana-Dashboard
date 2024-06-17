@@ -4,24 +4,39 @@ Overview
 This repository provides Terraform scripts to set up an AWS EC2 instance, a bash script to install MySQL and Grafana using Docker, and steps to deploy a Grafana dashboard using Terraform.
 
 Prerequisites
+
 AWS Account: Ensure you have an AWS account with necessary permissions to create EC2 instances, security groups, VPCs, and related resources.
+
 AWS CLI: Installed and configured with your AWS credentials.
+
 Terraform: Installed on your local machine.
+
 SSH Key Pair: Ensure you have an SSH key pair created in your AWS account.
+
 Git: Installed on your local machine.
 
 Repository Structure
+
 Dummy data folder: application sourcecode for generating dummy data
+
 Terraform folder: contains the infrastructure configuration files
+
 Dummy_Data_Transaction_Metrics-1718463516549.json: The dashboard JSON file
+
 aws.tf: Terraform script to set up AWS infrastructure.
+
 data.sh: Bash script to install MySQL and Grafana using Docker.
+
 grafana_provider.tf: Terraform script to configure the Grafana provider and deploy a dashboard.
+
 data_dashboard.tf: Terraform script containing the Grafana dashboard configuration.
+
 data_variables.tf: Terraform script containing variable configurations.
+
 data_datasource.tf: Terraform script containing the Grafana datasource configuration.
 
 Steps to Setup
+
 Clone the repository to your local machine: git clone https://github.com/your-repo.git
 Initialize Terraform in the Directory: terraform init
 Customize Variables (Optional): You can modify variables in variables.tf in the default block or create a terraform.tfvars file to override defaults.
