@@ -41,7 +41,7 @@ data_datasource.tf: Terraform script containing the Grafana datasource configura
 
 Steps to Setup
 
-Clone the repository to your local machine: git clone https://github.com/your-repo.git
+Clone the repository to your local machine: git clone https://github.com/lizabethwordp/Grafana-Dashboard.git
 
 Initialize Terraform in the Directory: terraform init
 
