@@ -11,6 +11,6 @@ terraform {
   }
 }
 provider "grafana" {
-  url = "{url}"
-  auth = "{user}:{password}"
+  url = "{url}" #grafana url
+  auth = "{user}:{password}"  #grafana user and password
 }
