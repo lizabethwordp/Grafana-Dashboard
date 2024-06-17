@@ -9,11 +9,7 @@ Prerequisites
 
 AWS Account: Ensure you have an AWS account with necessary permissions to create EC2 instances, security groups, VPCs, and related resources.
 
-AWS CLI: Installed and configured with your AWS credentials.
-
 Terraform: Installed on your local machine.
-
-SSH Key Pair: Ensure you have an SSH key pair created in your AWS account.
 
 Git: Installed on your local machine.
 
