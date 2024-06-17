@@ -11,6 +11,6 @@ terraform {
   }
 }
 provider "grafana" {
-  url = "http://54.183.230.189:3000"
-  auth = "admin:admin"
+  url = "{grafana_url}"
+  auth = "{grafana_user}:{grafana_pass}"
 }
