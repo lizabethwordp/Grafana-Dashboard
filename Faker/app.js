@@ -80,7 +80,7 @@ function generate () {
         return item;
         
     }
-    const banks = [[23,'CITIBANK'], [76,'SKYE BANK'], [70,'FIDELITY BANK'], [44,'ACCESS BANK'], [30,'HERITAGE BANK'], [57,'GTBANK'], [215,'UNITY BANK'], [301,'JAIZ BANK'], [11,'FIRST BANK'], [33,'UBA BANK'], [32,'UNION BANK'], [221,'STANBIC IBTC'], [232,'STERLING BANK'], [67,'STANDARD CHARTERED'], [50,'ECOBANK'], [214,'FCMB'], [72,'KEYSTONE BANK'], [501,'FSDH'], [57,'ZENITH BANK'], [35,'WEMA BANK'], [101,'PROVIDUS BANK'], [1,'CBN'], [100,'SUNTRUST BANK'], [502,'RAND'], [560, 'FBN Merchant']];
+    const banks = [[23,'CITIBANK'], [76,'BANK A'], [70,'BANK B'], [44,'BANK C'], [30,'BANK D'], [57,'BANK E'], [215,'BANK F'], [301,'BANK G'], [11,'BANK H'], [33,'BANK I'], [32,'BANK J'], [221,'BANK K'], [232,'BANK L'], [67,'BANK M'], [50,'BANK N'], [214,'BANK O'], [72,'BANK P'], [501,'BANK Q'], [57,'BANK R'], [35,'BANK S'], [101,'BANK T'], [1,'BANK U'], [100,'BANK V'], [502,'BANK W'], [560, 'BANK X']];
     const bank = getRandomBank(banks);
     const bankCode = bank[0];
     const bc = bankCode.toString()
